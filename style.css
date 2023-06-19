@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Schoolbell&display=swap"); /*Roboto*/
+:root {
+  --Font-family: "Roboto";
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  padding-bottom: 23px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  position: fixed;
+  width: 100%;
+}
+.header_items {
+  padding-top: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.nav_items {
+  display: flex;
+  gap: 51px;
+  list-style: none;
+}
+.active {
+  padding: 5px 13px;
+  border: 1px solid #d9d9d9;
+}
+.activ {
+  padding: 5px 13px;
+  border: 1px solid #d9d9d9;
+}
+
+.nav_item a {
+  font-family: var(--Font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.img {
+  display: flex;
+  margin-left: 100px;
+}
+.activity {
+  border: 1px solid #d9d9d9;
+  padding: 4px 17px;
+}
+.log_in {
+  justify-items: center;
+  padding-top: 13%;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+}
+.login h2 {
+  font-family: var(--Font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+span a {
+  font-family: var(--Font-family);
+  margin-left: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #01bab3;
+}
+.input_box label {
+  margin-top: 22px;
+  margin-bottom: 6px;
+  font-family: var(--Font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+.input_box input {
+  padding: 9px 190px 13px 13px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  margin-left: -5px;
+}
+.input_box ::placeholder {
+  text-align: left;
+}
+span {
+  color: #01bab3;
+}
+.num {
+  display: inline-block;
+  gap: 0px;
+  padding: 8px 12px 12px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.input_boxs {
+  display: flex;
+  gap: 20px;
+}
+.input_boxs select {
+  margin-right: 20px;
+  display: inline-block;
+  padding: 14px 90px 13px 10px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.input_boxs input {
+  padding: 10px 70px 14px 15px;
+}
+.input_boxsl label {
+  font-family: var(--Font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+.input_boxsl input {
+  padding: 14px 300px 9px 19px;
+}
+.input_boxsl ::placeholder {
+  font-family: var(--Font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+}
+.registerbtn {
+  background: #01bab3;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #778699;
+  padding-bottom: 8%;
+}

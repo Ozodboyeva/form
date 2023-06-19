@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header_items">
+          <div class="header_item">
+            <img src="./images10/logo.svg" alt="logo" />
+          </div>
+          <ul class="nav_items">
+            <li class="nav_item"><a href="#">Services</a></li>
+            <li class="nav_item"><a href="#">About </a></li>
+            <li class="nav_item"><a href="#">Contacts</a></li>
+            <li class="nav_item active"><a href="./index.html">Log in</a></li>
+            <li class="nav_item activity"><a href="#">Open an account</a></li>
+            <li class="nav_item activ"><a href="#">EN</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--done header section-->
+    <section class="log_in">
+      <div class="container">
+        <form action="">
+          <div class="login">
+            <img class="img" src="./images10/logo.svg" alt="logos" />
+            <h2>Welcome to ByTrend!</h2>
+            <p>
+              Already have an account?<span><a href="#">Log in</a></span>
+            </p>
+
+            <div class="input_box">
+              <label for="email">Email<span>*</span></label>
+              <br />
+              <input type="email" placeholder="Email address" required />
+            </div>
+            <br />
+            <div class="input_box">
+              <label for="Phone">Phone <span>*</span> </label>
+              <br />
+
+              <div class="num">+7</div>
+              <input type="number" placeholder="965-748-89-90" required />
+            </div>
+            <br />
+            <div class="input_boxs">
+              <div class="div">
+                <label for="value">Country <span>*</span></label >
+                <br />
+                <select required>
+                  <option name="value" value="russia">Russia</option>
+                  <option value="uzbekistan">Uzbekistan</option>
+                  <option value="korea">Korea</option>
+                </select>
+              </div>
+              <div class="div">
+                <label for="text">City <span>*</span></label>
+                <br />
+                <input type="text" placeholder="Name of the city" />
+              </div>
+            </div>
+            <br>
+
+            <div class="input_boxsl">
+
+              <label for="pwd">Password <span>*<span></span></label>
+           <br>
+           <input type="password" id="pwd" name="pwd" placeholder="************" required> 
+         </div>
+         <br>
+          <div class="input_boxsl">
+
+              <label for="pwd">Confirm password<span>*<span></span></label>
+           <br>
+           <input type="password" id="pwd" name="pwd"> 
+         </div>
+         <br><br><br>
+        <a href="#"><button type="submit" class="registerbtn" >
+            Register
+         </button>
+         </a>
+         <p>By signing up, you are agreeing to ourspan <span> Terms & Conditions and Privacy Policy.</span></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
